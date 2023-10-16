@@ -1,0 +1,142 @@
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    margin: 50px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.30rem
+}
+
+p {
+    color: #9ea0a6
+}
+
+.track {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.track .step {
+    flex-grow: 1;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.track .step::before {
+    height: 7px;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 18px;
+}
+
+
+.baseStepper {
+    width: "75%";
+    background-color: "#ddd";
+    position: "absolute";
+    height: "7px";
+    top: "18px";
+}
+
+.coloredStepper {
+    width: "25%";
+    background-color: "#e20a1a";
+    position: "absolute";
+    height: "7px";
+    top: "18px"
+}
+
+
+
+.track .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border-radius: 100%;
+    background: #ddd;
+}
+
+.track .step.active .text {
+    font-weight: 400;
+    color: #000;
+}
+
+.track .text {
+    display: block;
+    margin-top: 7px;
+}
+
+
+.table {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.tableHeader th {
+
+    background-color: #ececec !important;
+
+}
+
+.cardBody {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shippmentDetails {
+    width: 100%;
+    margin: 0px 50px;
+
+}
+
+.addressAndFeedback {
+    width: 100%;
+    margin: 0px 50px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.30rem;
+    word-wrap: break-word;
+    width: 80%;
+    min-height: 8%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    float: right;
+}
